@@ -1,0 +1,209 @@
+/*General*/
+* {
+	box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font: Helvetica Neue, Helvectica, Arial, serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: .8em;
+  background-color: #D1EDF8;
+  color: #8d9aa5;
+}
+html, body {
+   height: 100%;
+   width: 100%;
+   line-height: 40px;
+}
+#main {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%
+}
+
+#experience{ 
+  display: block;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  background-color: #42BEED;
+  height: 90%;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 35px;
+  -webkit-box-shadow: 10px 14px 16px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 14px 16px -1px rgba(0,0,0,0.75);
+  box-shadow: 10px 14px 16px -1px rgba(0,0,0,0.75);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+}
+
+#top{
+	border-radius: 15px;
+	font-size: 8px;
+	line-height: normal;
+	max-width: 300px;
+	text-align: center;
+	background-color: white;
+	margin-bottom: 3px;
+	padding-right: 2px;
+	padding-left:2px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin-top: 3px;
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	flex-shrink: 3;
+}
+#PP{
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	align-self:center;
+	max-width: 200px;
+	max-height:200px;
+}
+#me{
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	align-self:center;
+	max-width:70%;
+	max-height:70%;
+}
+#content {
+	display: flex;
+	flex-basis: auto;
+	flex-direction: column;
+	height: 65vh;
+	background-color: white;
+	align-items: center;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1.5em;
+	border-style: ridge;
+	border-width: medium;
+	border-color: #ffffff ;
+}
+.contentText {
+	color: black;
+	display: flex;
+	flex-direction: column;
+	flex-basis: auto;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#Eltitle{
+		font: bold 16px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background: #8B9BEF;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(34, 34, 34) 1px 1px 6px;
+		width: 120px;
+		max-height: 35px;
+		border: 2px inset rgb(255, 255, 255);
+    box-shadow: rgb(0, 0, 0) 4px 4px 12px;
+    border-radius: 27px 30px 0px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+}
+#Porttitle{
+	font: bold 16px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background: #8B9BEF;
+	color: rgb(255, 255, 255);
+	text-shadow: rgb(34, 34, 34) 1px 1px 6px;
+	border: 2px inset rgb(255, 255, 255);
+	box-shadow: rgb(0, 0, 0) 4px 4px 12px;
+	border-radius: 27px 30px 0px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#skillSet{
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+
+}
+#Exp{
+	text-align: left;
+}
+#portfolioButton{
+	height: 6vh;
+}
+#form1{
+	flex-direction: row;
+	margin-bottom: auto;
+	align-self: bottom;
+}
+.about{
+	margin-bottom: .2em;
+	align-self: center;
+	width: 90%;
+	color: white;
+  border-radius: 20px;
+	background: #8B9BEF;
+}
+a {
+  color: #3f8aBf;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3079ab;
+}
+
+
+h1, h2, h3 {
+  font-weight: 500;
+  color: #384047;
+}
+
+@media screen and (min-width: 550px) {
+  #top {
+     font-size: 7px;
+  }
+	#content {
+		font-size: 8px;
+	}
+	.contentText{
+		font-size: 16px;
+	}
+	#Eltitle,
+	#Porttitle{
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 850px) {
+  #top {
+     font-size: 7px;
+  }
+	#content {
+		font-size: 8px;
+
+	}
+	#Eltitle,
+	#Porttitle{
+		font-size: 25px;
+		height: 50px;
+		width: 220px;
+	}
+}
